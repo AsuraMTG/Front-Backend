@@ -1,0 +1,5 @@
+https://retoolapi.dev/SZwUUA/data
+
+GET - https://retoolapi.dev/SZwUUA/data
+
+GET - https://retoolapi.dev/SZwUUA/data/1

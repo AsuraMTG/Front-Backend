@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Űrlap</title>
+</head>
+
+<body>
+    <h1>Regisztráció</h1>
+    <div class="regisztracio">
+        <form>
+            <label for="text"><b>Név: </b></label><br>
+            <input type="text" name="nev" id="nev" required><br>
+
+
+            <label for="email"><b>Email: </b></label><br>
+            <input type="email" name="email" id="email" required><br>
+
+            <label for="jelszo"><b>Jelszo: </b></label><br>
+            <input type="password" name="password" id="password" required> <br>
+
+            <label for="jelszo"><b>Jelszo újra: </b></label><br>
+            <input type="password" name="password" id="password" required><br>
+
+            <label for="birthday"><b>Születési dátum: </b></label><br>
+            <input type="date" id="birthday" name="birthday" required><br>
+
+            <label for="birthday"><b>Nem: </b></label><br>
+            <label for="birthday"><b>Ferfi: </b></label><br><input type="radio" name="Férfi"><br>
+            <label for="birthday"><b>Nő: </b></label><br><input type="radio" name="Nő"><br>
+            <label for="birthday"><b>Egyéb: </b></label><br><input type="radio" name="Egyéb"><br>
+
+            <label for="text"><b>Számlaszám: </b></label><br>
+            <input type="number " name="nev" id="nev" required><br>
+
+
+            <label for="text"><b>Szeme színe: </b></label><br>
+            <select>
+                <option>Kék</option>
+                <option>Zöld</option>
+                <option>Barna</option>
+            </select>
+
+            <label for="text"><b>Profilkép: </b></label><br>
+            <input type='file'>
+            <h1> </h1>
+            <input type='checkbox'> 200 cm feletti
+            <input type='checkbox'> 120 kg feletti
+
+
+            <label for="text"><b>Bemutatkozás: </b></label><br>
+            <textarea cols=40 rows=4></textarea>
+
+            
+            <h1>  </h1>
+            <input type='submit'>
+        </form>
+    </div>
+    <h1> </h1>
+    <div class="bejelentkezes">
+        <form>
+            <label for="email"><b>Email: </b></label><br>
+            <input type="email" name="email" id="email" required><br>
+
+            <label for="jelszo"><b>Jelszo: </b></label><br>
+            <input type="password" name="password" id="password" required> <br>
+
+            <h1>   </h1>
+            <input type='submit'>
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>

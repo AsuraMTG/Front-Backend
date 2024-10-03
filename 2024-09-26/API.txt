@@ -1,0 +1,5 @@
+https://retoolapi.dev/c0APjO/data
+
+GET - https://api-generator.retool.com/kwfq7W/macskak
+
+GET - https://api-generator.retool.com/kwfq7W/macskak/1

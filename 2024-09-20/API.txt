@@ -1,0 +1,5 @@
+https://retoolapi.dev/c0APjO/data
+
+GET - https://api-generator.retool.com/c0APjO/data
+
+GET - https://api-generator.retool.com/c0APjO/data/1
